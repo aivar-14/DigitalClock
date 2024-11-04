@@ -1,0 +1,44 @@
+/* .digital-clock {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 50px auto;
+  }
+   */
+   .digital-clock {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff; /* White text for better contrast */
+    background-color: #034978dc; /* Bright blue background */
+    padding: 20px;
+    border: 2px solid #1c5980; /* Darker blue border */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+    width: 250px;
+    margin: 50px auto;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.digital-clock:hover {
+    background-color: #3498db; /* Lighter blue on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.digital-clock span {
+    display: block; /* Ensure each part of the time is on a new line */
+    font-size: 60px; /* Larger font for the time */
+    color: #f39c12; /* Orange color for the time display */
+}
+
+.digital-clock .label {
+    font-size: 24px; /* Smaller font for labels */
+    color: #ecf0f1; /* Light gray for labels */
+}
